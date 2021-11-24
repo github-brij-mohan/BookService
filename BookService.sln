@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Web", "BookService.Web\BookService.Web.csproj", "{E1BDBDD3-2FF7-4EBA-9076-D487730BF21B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Web", "src\BookService.Web\BookService.Web.csproj", "{E1BDBDD3-2FF7-4EBA-9076-D487730BF21B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{03689DBE-398C-4F73-83CD-A8C2D977B6E2}"
 EndProject
@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{89079170-8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{353BD7F0-FD96-4BD4-9EA8-37595D9BB585}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Service", "BookService.Service\BookService.Service.csproj", "{0CABB230-A810-43AF-84B1-4BF5FCEDE193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Service", "src\BookService.Service\BookService.Service.csproj", "{0CABB230-A810-43AF-84B1-4BF5FCEDE193}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Core.Contracts", "BookService.Core.Contracts\BookService.Core.Contracts.csproj", "{5368CC9B-5B01-495A-813B-98D0BF057CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Core.Contracts", "src\BookService.Core.Contracts\BookService.Core.Contracts.csproj", "{5368CC9B-5B01-495A-813B-98D0BF057CC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Core", "BookService.Core\BookService.Core.csproj", "{F1254736-BB32-4D45-8807-B1BFF1964283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Core", "src\BookService.Core\BookService.Core.csproj", "{F1254736-BB32-4D45-8807-B1BFF1964283}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Store", "BookService.Store\BookService.Store.csproj", "{1F1CE4A9-6897-4087-AF6D-574F9BA6E38F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookService.Store", "src\BookService.Store\BookService.Store.csproj", "{1F1CE4A9-6897-4087-AF6D-574F9BA6E38F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
